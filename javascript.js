@@ -41,9 +41,9 @@ function forecast(location) {
     dataType: "json",
     url: "https://api.openweathermap.org/data/2.5/forecast",
     data: {
-      id: 5012495,
+      id: 5012495, /*Change city here*/
       units: "imperial",
-      appid: "48f515fd43bbdcd47b5c18891fd34b1c",
+      appid: "YOUR_APP_KEY", /*Change to your API key here*/
       cnt: "5",
       function(json) {}
     }
