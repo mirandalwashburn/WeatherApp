@@ -1,8 +1,6 @@
 <script src="https:////cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react-dom.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
