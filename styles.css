@@ -1,0 +1,74 @@
+$main-color: rgba(0, 146, 227, 1);
+
+/*WEAHTER CARD*/
+#weather {
+  max-width: 900px;
+  margin: auto;
+}
+.weather__title {
+  font-family: sans-serif;
+  color: #545454;
+  margin: 15px 0;
+}
+.weather__wrapper {
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  font-family: sans-serif;
+  grid-gap: 10px;
+  transition: all 0.3s ease;
+}
+.weather__cont {
+    padding: 10px;
+    background: #0092e3;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.weather__day {
+  color: #eee;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+}
+.weather__image {
+  width: 100%;
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+.weather__highTemp, .weather__lowTemp {
+  font-size: 12px;
+  width: 50%;
+  float: left;
+  margin: auto;  
+  text-align: center;
+}
+.weather__highTemp {
+  color: #eee;
+}
+.weather__lowTemp {
+  color: #ccc;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+  .weather__wrapper {
+  grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .weather__wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 300px) {
+  .weather__wrapper {
+  grid-template-columns: repeat(1, 1fr);
+  }
+}
