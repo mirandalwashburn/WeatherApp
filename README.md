@@ -3,7 +3,7 @@
 
 <h2>Preview</h2>
 <p>See realtime what the forecast will be for the next five days. <p>
-<img src="/Weather_App.png">
+<img src="/Weather_App_Image.png">
 
 <h2>Getting Started</h2>
 You will have to sign up to generate your own API key with Open Weather Map. Make sure you have a React environment set up. 
